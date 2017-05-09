@@ -1,0 +1,83 @@
+  body{
+    background-color: black;
+  }
+
+  div.container-fluid{
+    margin: 0 auto;
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+
+  div.jumbotron{
+    background-image: url(Pitch.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-bottom: -10px;
+  }
+
+  div.jumbotron h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 8em;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 3px;
+  }
+
+  div.jumbotron p{
+    text-align: center;
+    font-weight: 550;
+    color: white;
+    font-size: 3em;
+  }
+
+  .navbar-brand{
+    padding-left: 50px;
+  }
+
+  .navbar-inverse .navbar-nav>li>a{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  h3{
+    color: white;
+  }
+
+  .row img{
+    width:80%;
+    height: 20em;
+    padding: 10%;
+  }
+
+  .row p{
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+  }
+  .carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+
+  @media (max-width: 600px) {
+      .carousel-caption {
+          display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+      }
+  }
+
+  .item img{
+    height: 600px;
+    max-height: 600px;
+    width:100%;
+  }
